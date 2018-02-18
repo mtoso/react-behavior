@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-plugin-transform-remove-strict-mode": "^0.0.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1"
   },
@@ -30,6 +31,7 @@
         }
       ],
       "react"
-    ]
+    ],
+    "plugins": ["transform-remove-strict-mode"]
   }
 }
